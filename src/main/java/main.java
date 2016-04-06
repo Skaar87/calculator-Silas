@@ -5,6 +5,7 @@ public class main {
 		
 		calculator calc = new calculator();
 		
+		System.out.println("The math phenomenon give us:");
 		System.out.println("Add: " + calc.add(3.0,5.0));
 		System.out.println("Sub: " + calc.sub(3.0,5.0));
 		System.out.println("Multi: " + calc.multi(3.0,5.0));

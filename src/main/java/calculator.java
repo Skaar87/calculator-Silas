@@ -14,7 +14,12 @@ public class calculator {
 		return  x * y; 
 	}
 	public double div(double x, double y){
-		
+		if(y == 0){
+		System.out.println("cannot divide by 0");
+		}
+		else{
 		return x / y;
+		}
+		return 0;
 	}
 }
